@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>
+            Teacher Activity
+        </title>
+    </head>
+<body>
+    <p>
+        How to declare the arrays ? 
+        <h4 id="declaration_of_arrays"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to fetch the first element of the array ?
+        <h4 id="access_first_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to fetch the second element of the array ?
+        <h4 id="access_second_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to fetch the third element of the array ?
+        <h4 id="access_third_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to get the length of the array ?
+        <h4 id="display_length_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to loop the array array ?
+        <h4 id="loop_the_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to add element at the end of the array ?
+        <h4 id="add_Mango"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to add more element at the end of the array ?
+        <h4 id="add_more_element_at_the_end_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to declare the arrays with alphabets ? 
+        <h4 id="display_alphabets_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to sort the arrays with alphabets ? 
+        <h4 id="display_sorted_alphabets_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to reverse the arrays with alphabets ? 
+        <h4 id="display_reverse_array"> 
+        </h4>
+    </p>
+<hr>      
+    <p>
+        How to declare the arrays with numbers ? 
+        <h4 id="display_number_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to find the maximum number from the arrays ? 
+        <h4 id="display_maximum_number"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to find the minimum number from the arrays ? 
+        <h4 id="display_minimum_number"> 
+        </h4>
+    </p>
+
+    <h3 style="background-color: red; font-size: 23px;">
+        ADDITIONAL ACTIVITY
+    </h3>
+    <p>
+        How to add element at the start of the array ?
+        <h4 id="add_element_at_the_start_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to add more element at the start of the array ?
+        <h4 id="add_more_element_at_the_start_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to remove element from the start of the array ?
+        <h4 id="remove_element_from_start_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to remove element from the end of the array ?
+        <h4 id="remove_element_from_end_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to merge two arrays ?
+        <h4 id="merge_two_arrays"> 
+        </h4>
+    </p>
+<script async src="https://drv.tw/inc/wd.js"></script></body>
+
+<script>
+var fruit=["Apple","Orange","Lime",];
+console.log(fruit);
+document.getElementById("declaration_of_arrays").innerHTML=fruit;
+
+var fruit1=fruit[0];
+console.log(fruit1);
+document.getElementById("access_first_element").innerHTML=fruit1;
+
+var fruit2=fruit[1];
+console.log(fruit2);
+document.getElementById("access_second_element").innerHTML=fruit2;
+
+var fruit3=fruit[2];
+console.log(fruit3);
+document.getElementById("access_third_element").innerHTML=fruit3;
+
+var Lfruit=fruit.length;
+console.log(Lfruit);
+document.getElementById("display_length_of_array")=Lfruit;
+
+var value="";
+for (i=0; i<fruit.length; i++) {
+    console.log(fruit[i])
+    value =value + fruit[i] + "<br>";
+}
+document.getElementById("loop_the_array").innerHTML=value;
+
+fruit.push("Mango");
+console.log(fruit);
+document.getElementById("add_Mango").innerHTML=fruit;
+
+fruit.push("Cherry");
+console.log(fruit);
+document.getElementById("add_more_element_at_the_end_of_array").innerHTML=fruit;
+
+var alphabets=["a","f","u","q","x","r","w","j"];
+console.log(alphabets);
+document.getElementById("display_alphabets_array").innerHTML=alphabets;
+
+alphabets.sort();
+console.log(alphabets);
+document.getElementById("display_sorted_alphabets_array").innerHTML=alphabets;
+
+alphabets.reverse();
+console.log(alphabets);
+document.getElementById("display_reverse_array").innerHTML=alphabets;
+
+var num=["1","46","21","34","93"];
+console.log(num)
+document.getElementById("display_number_array").innerHTML=num;
+
+
+</script>
+</html>
